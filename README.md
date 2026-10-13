@@ -1,16 +1,26 @@
-# React + Vite
+Nombre del e-commerce:
+Gativideo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Breve descripción del proyecto:
+Gativideo es un e-commerce para comprar películas clásicas de distintos géneros. La plataforma permite explorar el catálogo, consultar los detalles de cada película y agregarlas al carrito de compras.
 
-Currently, two official plugins are available:
+Tecnologías utilizadas:
+React
+JavaScript
+HTML5
+CSS3
+Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Instrucciones para instalar y ejecutar la aplicación:
+Clonar el repositorio:
+git clone https://github.com/usuario/gativideo.git
+Ingresar a la carpeta del proyecto:
+cd gativideo
+Instalar las dependencias:
+npm install
+Iniciar la aplicación:
+npm run dev
+Abrir en el navegador la dirección local que muestra la terminal.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Uso:
+Explorá el catálogo de películas, seleccioná tus favoritas y agregalas al carrito para simular una compra.
