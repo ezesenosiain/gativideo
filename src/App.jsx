@@ -13,6 +13,7 @@ function App() {
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
         </div>
+          <p>Donde podés comprar los mejores clásicos del cine</p>
       </section>
     </>
   )
