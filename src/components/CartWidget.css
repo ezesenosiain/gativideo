@@ -1,0 +1,23 @@
+span {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.shop-icon {
+  font-size: 1.75rem;
+  color: #fff;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-size: .75rem;
+  background-color: #b40000;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 100%;
+  font-weight: Bold;
+}

@@ -1,22 +1,12 @@
-import { useState } from 'react'
-import heroImg from './assets/logo-gativideo.svg'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import Navbar from "./components/Navbar"
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-        </div>
-          <p>Donde podés comprar los mejores clásicos del cine</p>
-      </section>
-    </>
+    <main>
+      <Navbar />
+      <h1>Texto a definir</h1>
+    </main>
   )
 }
-
-export default App
+export default App;
