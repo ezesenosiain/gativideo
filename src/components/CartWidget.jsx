@@ -5,7 +5,7 @@ import { MdShoppingCart } from "react-icons/md";
 function CartWidget() {
   return <span>
     <MdShoppingCart className="shop-icon" />
-      <p>2</p>
+      <p className="counter">2</p>
   </span >;
 }
 
