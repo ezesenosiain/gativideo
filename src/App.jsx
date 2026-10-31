@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
-import ItemListContainer from "./components/ItemListContainer"
+import ItemListContainer from "./components/ItemListContainer.jsx"
 import "./App.css";
+import { getProducts } from "./data/products";
 
 function App() {
   return (
@@ -13,3 +14,8 @@ function App() {
   )
 }
 export default App;
+
+
+getProducts().then((products) => {
+  console.log(products);
+});

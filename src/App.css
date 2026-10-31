@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #011E32;
+  background-color: #000509;
   font-family: sans-serif;
 }
 
@@ -9,5 +9,9 @@ h1 {
 }
 
 h2 {
+  color: #FFF;
+}
+
+h3 {
   color: #FFF;
 }

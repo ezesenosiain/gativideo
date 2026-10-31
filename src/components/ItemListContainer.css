@@ -1,6 +1,13 @@
+.item-list-header {
+  background-image: url(../assets/hero.webp);
+  background-size: cover;
+  background-position: bottom;
+  padding: 2rem 0rem;
+}
+
 h1 {
   text-align: center;
-  margin: 2rem 2rem 0.5rem 2rem;
+  margin: 0.5rem 2rem;
 }
 
 .item-description {
